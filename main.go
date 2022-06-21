@@ -5,18 +5,19 @@ import "fmt"
 func reverse(num int) int {
 
 	// var result int
+	var remainder int
 	temp := 0
 	if num > 0 {
 		for i := num; i > 0; i = i / 10 {
-			remainder := i % 10
-			temp = (temp * 10) + reminder
+			remainder = i % 10
+			temp = (temp * 10) + remainder
 
 		}
 
 	} else {
 		for i := num; i < 0; i = i / 10 {
-			remainder := i % 10
-			temp = (temp * 10) + reminder
+			remainder = i % 10
+			temp = (temp * 10) + remainder
 
 		}
 		// result = temp
