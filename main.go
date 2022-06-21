@@ -9,14 +9,14 @@ func reverse(num int) int {
 	if num > 0 {
 		for i := num; i > 0; i = i / 10 {
 			remainder := i % 10
-			temp = (temp * 10) + remainder
+			temp = (temp * 10) + reminder
 
 		}
 
 	} else {
 		for i := num; i < 0; i = i / 10 {
 			remainder := i % 10
-			temp = (temp * 10) + remainder
+			temp = (temp * 10) + reminder
 
 		}
 		// result = temp
